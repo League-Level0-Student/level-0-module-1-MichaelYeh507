@@ -36,4 +36,4 @@ if (answer.equals(password)) {
 JOptionPane.showMessageDialog(null, "INTRUDER!");
 }
 }
-}
+} 
