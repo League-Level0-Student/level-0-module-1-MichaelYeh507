@@ -5,11 +5,14 @@ void setup() {
   size(600, 600);
 }
 void draw() {
-  fill(#FF0000, #0CE535, #0C1FE5);
+  fill(106, 234, 240);
   ellipse(320, 205, 20, 45);
-  fill(#FF0000, #0CE535, #0C1FE5);
+  fill(106, 234, 240);
   ellipse(190, 205, 20, 45);
-
+  fill(#050505);
+  ellipse(320, 205, 15, 15);
+  fill(#050505);
+  ellipse(190, 205, 15, 15);
 }
 
 void mouseMoved() {
@@ -17,5 +20,4 @@ void mouseMoved() {
   ellipse(320, 205, 20, 45);
   fill(#0C1FE5);
   ellipse(190, 205, 20, 45);
-
 }
